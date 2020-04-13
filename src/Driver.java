@@ -7,5 +7,4 @@ public class Driver {
 		System.out.println("Hello, world!");
 		GameFrame.launchGame();
 	}
-
 }
