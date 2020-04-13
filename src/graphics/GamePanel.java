@@ -10,9 +10,8 @@ import javax.swing.JPanel;
 
 public class GamePanel extends JPanel implements KeyListener {
 
-	private static final long serialVersionUID = 1L;
-	private int S_WIDTH = 1024;
-	private int S_HEIGHT = 1024;
+	private int S_WIDTH = 512;
+	private int S_HEIGHT = 512;
 
 	public GamePanel() {
 		addKeyListener(this);
@@ -27,7 +26,7 @@ public class GamePanel extends JPanel implements KeyListener {
 	@Override
 	public void paintComponent(Graphics g) {
 		// clear screen
-		g.setColor(Color.BLACK);
+		g.setColor(Color.WHITE);
 		g.fillRect(0, 0, S_WIDTH, S_HEIGHT);
 	}
 
